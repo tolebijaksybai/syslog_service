@@ -1,5 +1,7 @@
 <?php
 
+ini_set('memory_limit', '256M'); // Увеличьте значение при необходимости
+
 $servers = [
     ['hostname' => 'server1', 'username' => 'user1', 'password' => 'password1'],
     ['hostname' => 'server2', 'username' => 'user2', 'password' => 'password2'],
