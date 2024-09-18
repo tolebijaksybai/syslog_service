@@ -18,3 +18,10 @@
 ```bash
 sudo apt-get install php-ssh2
 sudo apt-get install php-curl
+```
+
+sudo service apache2 restart  # для Apache
+sudo service php7.x-fpm restart  # для PHP-FPM, замените x на вашу версию
+
+Для запуска скрипта выполните следующую команду в терминале:
+php index.php
